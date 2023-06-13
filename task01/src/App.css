@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 100px;
+  pointer-events: none;
+}
+
+body {
+  margin: 0;
+  padding: 0px;
+  color: #f6f6f6;
+  /* Control Pseudo RESPONSIVENESS */
+}
+
+.section {
+  margin: 0;
+  padding: 24px;
+  background-color: #cccccc;
+  display: flex;
+  max-width: 40vw;
+
+  flex-direction: column;
+}
+
+.Input-field {
+  margin: 4px;
+  padding: 8px;
+  top: 0;
+  left: 0;
+  position: relative;
+  display: flex;
+  color: #151515;
+  
+}
+
+.cta-btn {
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+  background-color: #fff;
+  padding: 10px 30px;
+  border: solid #202020 2px;
+  transition: 0.6s;
+  transform: translateY(0);
+  /* display: flex;
+  flex-direction: row; */
+  align-items: center;
+  cursor: pointer;
+  margin: 24px 0px 24px 0px;
+}
+
+.cta-btn:hover {
+  transition: 1000ms;
+  padding: 10px 24px;
+  transform: translateY(-0px);
+  background-color: #eeeeee6a;
+  border: solid 2px #000;
+}
+
+.text-label {
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+  letter-spacing: 0.8px;
+  margin: 0px 20px 0px 2px;
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  
+}
+/* Substitute to position this stupid textbox to right */
+.right {
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  right: 12px;
+}
+
+input,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  text-decoration: none;
+  margin: 4px 4px 4px 40px;
+  color: #333;
+  font-size: inherit;
+  background-color: #ffffff;
+  padding: 12px 8px 12px 8px;
+  border: 1px solid #fff;
+  appearance: none;
+  transition: all 0.6s ease;
+  position: relative;
+  display: flex;
+  width: 25vw;
+  /* border: 1px solid #151515; */
+}
+
+/* Display results */
+
+.profile {
+  display: inline-flex;
+  width: 320px;
+  height: 180px;
+  object-fit: cover;
+  box-shadow: 0 1px 25px #0000005b;
+  margin: 12px;
+  border-radius: 20px;
+}
+
+.profile:hover {
+  box-shadow: 0 1px 25px #30303033;
+  margin: 12px;
+  border-radius: 12px;
+}
+.user-img {
+display: block;
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+}
+
+.user-details {
+  font-weight: lighter;
+  font-size: 10px;
+  color: #000;
+  gap: 12px;
+}
